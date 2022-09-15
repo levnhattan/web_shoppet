@@ -1,10 +1,17 @@
 import './App.css';
-import Home from './component/home/Home';
-
+import Footer from './component/Footer';
+import Header from './component/Header';
+import Nav from './component/Nav';
+import Routers from './component/router/Routers';
 function App() {
   return (
     <div >
-      <Home />
+      <Header/>
+      <Nav/>
+      <Routers/>
+      <Footer/>
+      {/* <Home />
+      <Product/> */}
     </div>
   );
 }
