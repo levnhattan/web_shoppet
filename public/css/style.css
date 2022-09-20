@@ -2134,3 +2134,49 @@ textarea.input {
     margin-top: 10px;
   }
 }
+/* video intro====================== */
+.intro{
+  height: 45em;
+  width: 100%;
+  display: flex; 
+  position: relative;
+  flex-wrap:  wrap;
+}
+.intro .video{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit:  cover;
+    overflow: hidden;
+    z-index: 1;
+}
+.intro .name{
+  z-index: 2;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.intro .text{
+  z-index: 2;
+  color: red;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  font-weight:  bold;
+  font-size: 18px;
+}
+.intro .mua{
+  z-index: 2;
+  color: yellow;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  font-weight:  bold;
+  font-size: 20px;
+
+}
+/* video intro====================== */

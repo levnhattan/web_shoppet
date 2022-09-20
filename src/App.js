@@ -10,8 +10,7 @@ function App() {
       <Nav/>
       <Routers/>
       <Footer/>
-      {/* <Home />
-      <Product/> */}
+     
     </div>
   );
 }
