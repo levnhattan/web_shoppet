@@ -10,11 +10,11 @@ class Header extends Component {
         <div className="container">
           <ul className="header-links pull-left">
             <li><a href><i className="fa fa-phone" /> +849 982 8721</a></li>
-            <li><a href><i className="fa fa-envelope-o" /> tandeptraibodoithe@gmail.com</a></li>
+            <li><a href><i className="fa fa-envelope-o" /> tdeptraibodoithe@gmail.com</a></li>
             <li><a href><i className="fa fa-map-marker" /> 1734 Quang Trung</a></li>
           </ul>
           <ul className="header-links pull-right">
-            <li><a href><i className="fa fa-user-o" /> Tài Khoản</a></li>
+            <li><NavLink to="/signin"><i className="fa fa-user-o"  /> Tài Khoản</NavLink></li>
           </ul>
         </div>
       </div>
@@ -96,7 +96,7 @@ class Header extends Component {
                       <h5>Tổng: 3.000.000 VNĐ</h5>
                     </div>
                     <div className="cart-btns">
-                      <a href>Xem Giỏ Hàng</a>
+                      <NavLink to="/admin" >Xem Giỏ Hàng</NavLink>
                       <NavLink to="/checkout">Thanh Toán  <i className="fa fa-arrow-circle-right" /></NavLink>
                     </div>
                   </div>

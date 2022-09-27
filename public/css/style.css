@@ -378,6 +378,7 @@ textarea.input {
 
 .header-links li a:hover {
   color: #D10024;
+  cursor: pointer;
 }
 
 .header-links li i {
@@ -2180,3 +2181,123 @@ textarea.input {
 
 }
 /* video intro====================== */
+
+/* Login =================== */
+.form-login{
+  height: 350px;
+  width: 30%;
+  background-color: rgba(236, 236, 236, 0.453);
+  transform: translateX(120%);
+}
+.form-login h2{
+  text-align: center;
+  padding: 5% 5%;
+}
+.form-login input{
+  width: 80%;
+  margin:  10px 30px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.form-login button{
+  width: 80%;
+  margin: 20px 30px;
+  background-color:#2e86de;
+  color: black;
+  border:  none;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+.form-login h4{
+  margin-top: 25px;
+  text-align: center;
+}
+.form-login h4 a{
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
+}
+/* Login =================== */
+/* Signup =====================*/
+.form-signup {
+  height: 550px;
+  width: 30%;
+  background-color: rgba(236, 236, 236, 0.453);
+  transform: translateX(120%);
+}
+.form-signup h2{
+  text-align:  center;
+}
+.form-signup input{
+  width: 80%;
+  margin:  10px 30px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.form-signup button{
+  width: 80%;
+  margin: 20px 30px;
+  background-color:#2e86de;
+  color: black;
+  border:  none;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.form-signup h4{
+  text-align: center;
+}
+.form-signup h4 a{
+  color: red;
+}
+/* Signup =====================*/
+
+/* admin============== */
+.admin-left{
+  background-color: #2d3c4aed;
+  color: white;
+  height: calc(100vh - 20px);
+}
+.admin-left h3{
+  color: #fff;
+}
+.admin-left .left-sidebar{
+  padding: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.admin-left .left-sidebar ul li  a{
+  color: #fff;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.admin-left .left-sidebar ul li  {
+  padding-top: 25px;
+}
+.admin-left .left-sidebar ul li  a i{
+ margin-right: 10px;
+}
+.admin-right h4 .btn-add{
+  transform: translateX(490px);
+}
+.admin-right h4 input{
+  font-size: 15px;
+  transform: translateX(20px);
+  border-radius: 5px;
+}
+.admin-right h4 button{
+  font-size: 15px;
+  transform: translateX(20px);
+  border-radius: 5px;
+}
+.admin-right .card-body{
+  min-height: calc(100vh - 180px);
+}
+.admin-right .card-body table thead tr th{
+  text-align: center;
+}
+/* admin============== */
